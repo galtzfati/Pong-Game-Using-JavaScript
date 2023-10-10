@@ -1,0 +1,38 @@
+#gameContainerDiv {
+    text-align: center;
+}
+#gameCanvas {
+    border: 5px solid black;
+    background-color: darkslategrey;
+}
+#utilsDiv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 90px;
+    margin-top: 10px;
+}
+#resetButton {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    color: rgb(248, 240, 255);
+    background-color: darkslategrey;
+    border: 3px solid rgb(34, 57, 57);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+#resetButton:hover {
+    color: rgb(250, 250, 250);
+    background-color: rgb(65, 108, 108);
+    border: 3px solid rgb(54, 91, 91);
+    box-shadow: black 3px 3px 3px;
+}
+#scoreLabel {
+    font-family: Times;
+    font-weight: bolder;
+    color: rgb(30, 51, 51);
+    font-size: 40px;
+}
